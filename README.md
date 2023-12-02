@@ -27,11 +27,16 @@ This Bash script provides a simple and interactive way to configure proxy settin
 
 Check the log file (/var/log/proxy_config.log) for detailed information about configuration changes.
 
-
+### Test
+```bash
+curl -v -x https://[proxy.ip]:[port] https://www.netskope.com
+```
 ### Example
 
 ```bash
 ./configure_proxy.sh
+
+```
 
 Follow the interactive prompts to enter the proxy IP address and port. Confirm the changes when prompted.
 
