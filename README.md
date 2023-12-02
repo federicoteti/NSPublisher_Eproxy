@@ -1,6 +1,6 @@
 # Publisher_proxy
 
-# Proxy Configuration Script
+## Proxy Configuration Script
 
 This Bash script provides a simple and interactive way to configure proxy settings on your system. It allows you to set the HTTP and HTTPS proxy settings for `/etc/environment` and Docker's systemd service.
 
@@ -23,6 +23,11 @@ This Bash script provides a simple and interactive way to configure proxy settin
 - To display current proxy settings: `./configure_proxy.sh --show` or `./configure_proxy.sh -s`
 - To confirm changes before applying: `./configure_proxy.sh --confirm` or `./configure_proxy.sh -c`
 
+## Troubleshooting
+
+Check the log file (/var/log/proxy_config.log) for detailed information about configuration changes.
+
+
 ### Example
 
 ```bash
@@ -30,6 +35,3 @@ This Bash script provides a simple and interactive way to configure proxy settin
 
 Follow the interactive prompts to enter the proxy IP address and port. Confirm the changes when prompted.
 
-## Troubleshooting
-
-Check the log file (/var/log/proxy_config.log) for detailed information about configuration changes.
