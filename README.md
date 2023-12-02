@@ -30,6 +30,6 @@ This Bash script provides a simple and interactive way to configure proxy settin
 
 Follow the interactive prompts to enter the proxy IP address and port. Confirm the changes when prompted.
 
-### Troubleshooting
+## Troubleshooting
 
 Check the log file (/var/log/proxy_config.log) for detailed information about configuration changes.
